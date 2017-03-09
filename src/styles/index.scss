@@ -1,0 +1,40 @@
+$size: 10px;
+
+body{
+  background:#3b423e;
+  color:white;
+  font-family: 'Tinos';
+}
+
+.btn{
+  border:none;
+  font-weight: bolder;
+}
+.btn-info{
+  background:#54a938;
+  color:#fcff36;
+}
+.btn-danger{
+  background:#f3db31;
+  color:#276123;
+}
+
+h1{text-align:center;}
+
+.board-row{
+  display:flex;
+  justify-content: center;
+}
+.cell, .cell-active{
+  border:1px solid black;
+  background:white;
+  height:$size;
+  width:$size;
+}
+.cell-active{
+  background:#2546a2;
+}
+.controls{
+  text-align:center;
+}
+
